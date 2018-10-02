@@ -1,0 +1,16 @@
+<p>
+  Tugas
+</p>
+<label>Masukkan Nama : </label>
+
+ <input 
+  type="text"
+  class="form-control"
+  [(ngModel)]="username">
+<p>Nama : {{ username }}</p>
+
+<button class="btn btn-primary" 
+  [disabled]="buttoncheck()"
+  (click)="clear()">Add</button>
+
+ 

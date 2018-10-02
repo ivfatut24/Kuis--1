@@ -1,0 +1,14 @@
+<p>
+  tugas3 works!
+</p>
+<button 
+  class="btn btn-primary" 
+  (click)="onCreationStatus()">Tampilkan detail</button>
+ <br> {{tulisan}}
+
+  <!-- <p>{{ serverCreationStatus }}</p> -->
+  
+<p [ngClass] = "{online: angka > 4}"
+  [ngStyle] = "{backgroundColor: angka >4 ? 'pink' : 'transparan'}"
+  *ngFor="let angka of log"> {{ angka }}</p>
+
